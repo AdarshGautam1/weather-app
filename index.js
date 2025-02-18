@@ -1,4 +1,4 @@
-import API_KEY from "./config.js";
+const API_KEY = '7b9e37b6da1189f662b58ee421f636c9'
 
 const inputText = document.getElementById("input");
 
