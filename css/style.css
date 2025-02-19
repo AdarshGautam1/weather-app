@@ -581,14 +581,8 @@
   .w-\[95\%\] {
     width: 95%;
   }
-  .w-\[100px\] {
-    width: 100px;
-  }
   .w-\[110px\] {
     width: 110px;
-  }
-  .w-\[120px\] {
-    width: 120px;
   }
   .w-full {
     width: 100%;
@@ -619,9 +613,6 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-  .gap-5 {
-    gap: calc(var(--spacing) * 5);
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -749,16 +740,6 @@
   .active\:bg-blue-600 {
     &:active {
       background-color: var(--color-blue-600);
-    }
-  }
-  .sm\:w-20 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 20);
-    }
-  }
-  .sm\:w-25 {
-    @media (width >= 40rem) {
-      width: calc(var(--spacing) * 25);
     }
   }
   .md\:h-20 {
