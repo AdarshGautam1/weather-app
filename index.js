@@ -29,17 +29,17 @@ async function getWeather(inputValue){
         document.querySelector('.decription').innerHTML = data.weather[0].description
 
         const details = [
-            `<div class="bg-gray-200 md:w-35 md:h-20 flex flex-col justify-center items-center font-mono rounded-md w-20 h-20 md:text-lg text-sm">Feels like: 
+            `<div class="bg-gray-200 md:w-35 md:h-20 flex flex-col justify-center items-center font-mono rounded-md w-25 h-20 md:text-lg text-sm">Feels like: 
                 <div class="feelslike">
                     ${data.main.feels_like}
                 </div>
             </div>`,
-            `<div class="bg-gray-200 md:w-35 md:h-20 flex flex-col justify-center items-center font-mono rounded-md w-20 h-20 md:text-lg text-sm">Humidity : 
+            `<div class="bg-gray-200 md:w-35 md:h-20 flex flex-col justify-center items-center font-mono rounded-md w-25 h-20 md:text-lg text-sm">Humidity : 
                 <div class="humidity">
                 ${data.main.humidity}
                 </div>
             </div>`,
-            `<div class="bg-gray-200 md:w-35 md:h-20 flex items-center font-mono rounded-md w-20 h-20 md:text-lg text-sm">Wind speed: ${data.wind.speed} m/s</div>`
+            `<div class="bg-gray-200 md:w-35 md:h-20 flex items-center font-mono rounded-md w-25 h-20 md:text-lg text-sm">Wind speed: ${data.wind.speed} m/s</div>`
             
         ]
 
